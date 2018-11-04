@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MallApi</name>
+    </assembly>
+    <members>
+        <member name="T:MallApi.Controllers.ValuesController">
+            <summary>
+            Values控制器
+            </summary>
+        </member>
+        <member name="M:MallApi.Controllers.ValuesController.Get">
+            <summary>
+             获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MallApi.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            根据id获取一个
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MallApi.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            提交列表
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:MallApi.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            保存ID和value 
+            </summary>
+            <param name="id">id</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:MallApi.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            DELETE api/values/5
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:MallApi.Startup">
+            <summary>
+            API入口
+            </summary>
+        </member>
+        <member name="M:MallApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:MallApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MallApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            此方法由运行时调用。使用此方法向容器添加服务。
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:MallApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            此方法由运行时调用。使用此方法配置HTTP请求管道。
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
